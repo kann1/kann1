@@ -5,11 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="=IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>110111108孫凱恩</title>
-    <link rel="shortcut icon" href="img/avatar.png" type="image/x-icon">
-    <style>
+    <title>110111108孫凱恩 個人網頁</title>
+        <style>
         #container {
-            background-color: rgb(253, 253, 142);
+            background-color: rgb(255, 238, 0);
             width: 980px;
             margin: 0px auto
         }
