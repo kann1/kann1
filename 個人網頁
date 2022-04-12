@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="=IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>110111108孫凱恩 個人網頁</title>
-        <style>
+    <style>
         #container {
             background-color: rgb(255, 238, 0);
             width: 980px;
@@ -17,56 +17,56 @@
 
 <body>
     <div id="container">
-    <header>
-        <h1>110111108孫凱恩</h1>
-        <p>介紹一下我的近況</p>
-        <nav>
-            <ul>
-                <li><a href="#intro">關於本站</a></li>
-                <li><a href="nothing improtant">我屁話</a></li>
-                <li><a href="end">結束</a></li>
-            </ul>
-        </nav>
-        <main>
-            <section id="intro">
-            <h2>關於網頁</h2>
-            <p>不重要</p>
-            <p>都是屁話</p>
-            <p>如果看完後覺得浪費時間請自行負責</p>
-        </section>
-        <section id="nothing improtant">
-            <h2>關於最近</h2>
-            <section>
-                <h3>運氣</h3>
-                <p>我覺得最近的運氣蠻衰的</p>
-                <p>也不是真的很衰</p>
-                <p>只是剛好想要的角色抽不到而已</p>
-                <p>不過也只有幾個常玩的手遊抽不到角色</p>
-                <p>不常玩的反而運氣很好</p>
-                <p>運氣總是意想不到</p>
-            </section>
-            <section>
-                <h3>日文進步?!</h3>
-                <p>剛剛提到的不常玩的手遊</p>
-                <p>因為它們沒有中文翻譯</p>
-                <p>應該是說沒有辦法中文翻譯</p>
-                <p>一款手遊是</p>
-                <p>它遊玩方式是用日本的50音去拼字</p>
-                <p>另一款</p>
-                <p>舊式的JRPG戰鬥</p>
-                <p>我大部分都是在看劇情</p>
-                <p>所以日文進步不少</p>
-            </section>
-        </section>
-        <section id="end">
-            <h2>結束</h2>
-            <p>因為最近玩手遊日文進步太多</p>
-            <p>所以VS CODE忘了怎麼用了</p>
-        </section>
-        </main>
-        <footer>
-            <p>以上內容純屬浪費時間</p>
-        </footer>
+        <header>
+            <h1>110111108孫凱恩</h1>
+            <p>介紹一下我的近況</p>
+            <nav>
+                <ul>
+                    <li><a href="#intro">關於本站</a></li>
+                    <li><a href="nothing improtant">我屁話</a></li>
+                    <li><a href="end">結束</a></li>
+                </ul>
+            </nav>
+            <main>
+                <section id="intro">
+                    <h2>關於網頁</h2>
+                    <p>不重要</p>
+                    <p>都是屁話</p>
+                    <p>如果看完後覺得浪費時間請自行負責</p>
+                </section>
+                <section id="nothing improtant">
+                    <h2>關於最近</h2>
+                    <section>
+                        <h3>運氣</h3>
+                        <p>我覺得最近的運氣蠻衰的</p>
+                        <p>也不是真的很衰</p>
+                        <p>只是剛好想要的角色抽不到而已</p>
+                        <p>不過也只有幾個常玩的手遊抽不到角色</p>
+                        <p>不常玩的反而運氣很好</p>
+                        <p>運氣總是意想不到</p>
+                    </section>
+                    <section>
+                        <h3>日文進步?!</h3>
+                        <p>剛剛提到的不常玩的手遊</p>
+                        <p>因為它們沒有中文翻譯</p>
+                        <p>應該是說沒有辦法中文翻譯</p>
+                        <p>一款手遊是</p>
+                        <p>它遊玩方式是用日本的50音去拼字</p>
+                        <p>另一款</p>
+                        <p>舊式的JRPG戰鬥</p>
+                        <p>我大部分都是在看劇情</p>
+                        <p>所以日文進步不少</p>
+                    </section>
+                </section>
+                <section id="end">
+                    <h2>結束</h2>
+                    <p>因為最近玩手遊日文進步太多</p>
+                    <p>所以VS CODE忘了怎麼用了</p>
+                </section>
+            </main>
+            <footer>
+                <p>以上內容純屬浪費時間</p>
+            </footer>
     </div>
 </body>
 
