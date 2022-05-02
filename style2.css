@@ -1,13 +1,13 @@
 @import url(reset.css);
 body{
-    background-color: rgb(188, 255, 255)
+    background-color: rgb(221, 239, 255)
 }
 
 h1{
     width: 300px;
     margin: auto auto 20px auto;
-    color: rgb(255, 131, 131);
-    border: 3px solid rgb(255, 170, 170);
+    color: rgb(255, 253, 131);
+    border: 3px solid rgb(255, 249, 170);
     background-color: rgb(255, 255, 255);
     padding: 20px;
     font-size: 300%;
