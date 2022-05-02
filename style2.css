@@ -34,3 +34,10 @@ main{
     text-shadow: 1px 1px 5px black
 }
 
+footer{
+    padding: 10px;
+    background-color: rgb(197, 255, 189);
+    width: 90%;
+    margin: 0px auto;
+    border: 3px solid rgb(166, 197, 255);
+}
