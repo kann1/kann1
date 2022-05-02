@@ -33,3 +33,6 @@ main{
     border-radius: 50%;
 }
 
+.text_shadow{
+    text-shadow: 1px 1px 5px black
+}
