@@ -1,9 +1,10 @@
 @import url(reset.css);
-body{
+
+body {
     background-color: rgb(221, 239, 255)
 }
 
-h1{
+h1 {
     width: 300px;
     margin: auto auto 20px auto;
     color: rgb(255, 187, 0);
@@ -15,13 +16,13 @@ h1{
     line-height: 1;
 }
 
-h2{
+h2 {
     padding: 10px;
     border: 1px dotted rgb(105, 158, 255);
     border-left: 10px solid rgb(105, 158, 255);
 }
 
-main{
+main {
     padding: 10px;
     background-color: rgb(255, 254, 189);
     width: 90%;
@@ -29,12 +30,12 @@ main{
     border: 3px solid rgb(255, 166, 166);
 }
 
-.h{
+.h {
     border-radius: 50%;
     text-shadow: 1px 1px 5px black
 }
 
-footer{
+footer {
     padding: 10px;
     background-color: rgb(197, 255, 189);
     width: 90%;
@@ -46,21 +47,23 @@ table {
     border-collapse: collapse;
     width: 100%;
     background-color: white;
-  }
-  table thead th {
+}
+
+table thead th {
     color: #ffffff;
     background: #2f4961;
-  }
+}
+
 table td,
 table th {
     text-align: center;
     padding: 10px;
-  }
-  
-  table td {
+}
+
+table td {
     border-right: 1px solid #f1f1f1;
-  }
-  
-  table tr:nth-child(even) {
+}
+
+table tr:nth-child(even) {
     background: #f8f8f8;
-  }
+}
