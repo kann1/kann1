@@ -1,5 +1,6 @@
 nav {
     background-color: aquamarine;
+    text-align: center;
 }
 
 nav li {
@@ -10,4 +11,5 @@ nav li {
 nav li a {
     display: block;
     text-decoration: none;
+    padding: 5px;
 }
