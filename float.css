@@ -5,7 +5,7 @@ header{
 aside{
     height:200px;
     background-color:#94FFCD;
-    width:30%;
+    width:70%;
     float:left;
 }
 section{
@@ -18,4 +18,9 @@ footer{
     height:200px;
     background-color:#9ECBFF;
     clear:both;
+}
+.cha{
+    text-align: center;
+    padding: 10px;
+    float: left;
 }
