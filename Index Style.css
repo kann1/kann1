@@ -12,10 +12,6 @@ h1 {
     text-shadow: 1px 1px 5px black
 }
 
-.list{
-    list-style-type: none;
-}
-
 nav {
     background-color: aquamarine;
     text-align: center;
