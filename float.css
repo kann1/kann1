@@ -4,7 +4,7 @@ header{
 }
 aside{
     height:200px;
-    background-color:#9ECBFF;
+    background-color:#94FFCD;
     width:30%;
     float:left;
 }
@@ -16,6 +16,6 @@ section{
 }
 footer{
     height:200px;
-    background-color:#94FFCD;
+    background-color:#9ECBFF;
     clear:both;
 }
