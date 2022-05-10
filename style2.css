@@ -23,19 +23,19 @@ h2 {
 }
 
 aside {
-    background-color: #E0FEDF;
-    width: 50%;
+    background-color:#FEEEEC;
+    width:50%;
     height: 400px;
     margin: 0px auto;
-    float: left;
+    float:left;
 }
 
 main {
-    background-color: rgb(255, 254, 189);
-    width: 50%;
+    background-color:#FDFAEB;
+    width:50%;
     height: 400px;
     margin: 0px auto;
-    float: right;
+    float:right;
 }
 
 .h {
