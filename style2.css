@@ -49,6 +49,7 @@ footer {
     width: 80%;
     margin: 0px auto;
     border: 3px solid rgb(166, 197, 255);
+    clear: both;
 }
 
 table {
