@@ -5,12 +5,17 @@ header{
 aside{
     height:200px;
     background-color:#9ECBFF;
+    width:30%;
+    float:left;
 }
 section{
     height:200px;
     background-color:#86EBD6;
+    width:30%;
+    float:right;
 }
 footer{
     height:200px;
     background-color:#94FFCD;
+    clear:both;
 }
