@@ -1,6 +1,13 @@
-nav li{
-    list-style-type:none;
-    display:inline-block;
-    height: 50px;
-    width: 100px;;
+nav {
+    background-color: aquamarine;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav li a {
+    display: block;
+    text-decoration: none;
 }
