@@ -17,5 +17,5 @@ nav li a {
 nav li a:hover{
     background-color: rgb(255, 224, 121);
     color: rgb(255, 102, 102);
-    transition: none;
+    transition:background-color 1s linear, color 1s ease-in-out;
 }
