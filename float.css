@@ -22,6 +22,9 @@ footer {
     background-color: #9ECBFF;
     clear: both;
 }
-.cat{
 
+.cat {
+    text-align: center;
+    padding: 10px;
+    float: left;
 }
