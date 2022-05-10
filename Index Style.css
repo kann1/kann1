@@ -1,0 +1,36 @@
+h1 {
+    width: 300px;
+    margin: 10px;
+    color: rgb(255, 145, 0);
+    border: 3px solid rgb(255, 208, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 300%;
+    text-align: center;
+    line-height: 1;
+    border-radius: 50%;
+    text-shadow: 1px 1px 5px black
+}
+
+nav {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav li a {
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    color: rgb(0, 102, 255);
+}
+
+nav li a:hover {
+    background-color: rgb(255, 224, 121);
+    color: rgb(255, 102, 102);
+    transition: background-color 1s linear, color 1s ease-in-out;
+}
