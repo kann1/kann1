@@ -12,4 +12,10 @@ nav li a {
     display: block;
     text-decoration: none;
     padding: 5px;
+    color: rgb(0, 102, 255);
+}
+nav li a:hover{
+    background-color: rgb(255, 224, 121);
+    color: rgb(255, 102, 102);
+    transition: none;
 }
