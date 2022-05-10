@@ -22,10 +22,11 @@ h2 {
     border-left: 10px solid rgb(105, 158, 255);
 }
 
-aside{
+aside {
     padding: 10px;
-    background-color:#E0FEDF;
+    background-color: #E0FEDF;
     width: 50%;
+    height: 300px;;
     margin: 0px auto;
     border: 3px solid #EBE9C3;
     float: left;
@@ -35,9 +36,10 @@ main {
     padding: 10px;
     background-color: rgb(255, 254, 189);
     width: 50%;
+    height: 300px;;
     margin: 0px auto;
     border: 3px solid rgb(255, 166, 166);
-    float: left;
+    float: right;
 }
 
 .h {

@@ -1,21 +1,24 @@
-header{
-    height:200px;
-    background-color:#A8FBFF;
+header {
+    height: 200px;
+    background-color: #A8FBFF;
 }
-aside{
-    height:200px;
-    background-color:#94FFCD;
-    width:30%;
-    float:left;
+
+aside {
+    height: 200px;
+    background-color: #94FFCD;
+    width: 30%;
+    float: left;
 }
-section{
-    height:200px;
-    background-color:#86EBD6;
-    width:30%;
-    float:left;
+
+section {
+    height: 200px;
+    background-color: #86EBD6;
+    width: 30%;
+    float: left;
 }
-footer{
-    height:200px;
-    background-color:#9ECBFF;
-    clear:both;
+
+footer {
+    height: 200px;
+    background-color: #9ECBFF;
+    clear: both;
 }
