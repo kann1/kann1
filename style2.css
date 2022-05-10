@@ -25,18 +25,16 @@ h2 {
 aside {
     background-color: #E0FEDF;
     width: 50%;
-    height: 400px;;
+    height: 400px;
     margin: 0px auto;
-    border: 3px solid #EBE9C3;
     float: left;
 }
 
 main {
     background-color: rgb(255, 254, 189);
     width: 50%;
-    height: 400px;;
+    height: 400px;
     margin: 0px auto;
-    border: 3px solid rgb(255, 166, 166);
     float: right;
 }
 
