@@ -11,9 +11,11 @@ h1 {
     border-radius: 50%;
     text-shadow: 1px 1px 5px black
 }
-h2 li a{
+
+h2 li {
     list-style-type: none;
 }
+
 nav {
     background-color: aquamarine;
     text-align: center;
