@@ -2,6 +2,12 @@ body ul {
     margin: 0px;
 }
 
+header {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
 nav {
     background-color: rgb(142, 122, 255);
 }
@@ -48,10 +54,21 @@ nav li a:hover {
 
 #photolist li {
     list-style-type: none;
-    margin: 10px;
+    margin: 70px;
 }
 
 #photolist img {
     border-radius: 10px;
     box-shadow: 5px 5px 5px black;
+}
+
+#photolist .emptyitem {
+    width: 200px;
+}
+.gotop{
+    font-size: 50px;
+    color: aquamarine;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
 }
