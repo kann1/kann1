@@ -1,0 +1,57 @@
+body ul {
+    margin: 0px;
+}
+
+nav {
+    background-color: rgb(142, 122, 255);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+nav li a:hover {
+    background-color: rgb(255, 134, 134);
+    color: rgb(255, 255, 255);
+    transition: background-color 1s linear, color 1s ease-in-out;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(128, 136, 255, 75%);
+}
+
+.title {
+    text-align: center;
+    font-family: 'Koulen', cursive;
+}
+
+#photolist ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#photolist li {
+    list-style-type: none;
+    margin: 10px;
+}
+
+#photolist img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
