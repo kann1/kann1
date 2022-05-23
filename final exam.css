@@ -1,6 +1,6 @@
 nav {
-    background-color: aquamarine;
-    text-align: center;
+    background-color: #FFA3B6;
+    text-align: right;
 }
 
 nav li {
@@ -12,10 +12,10 @@ nav li a {
     display: block;
     text-decoration: none;
     padding: 5px;
-    color: rgb(0, 102, 255);
+    color: rgb(255, 255, 255);
 }
 nav li a:hover{
     background-color: rgb(255, 224, 121);
     color: rgb(255, 102, 102);
-    transition:background-color 1s linear, color 1s ease-in-out;
+    transition:background-color 2s linear, color 2s ease-in-out;
 }
