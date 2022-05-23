@@ -14,8 +14,42 @@ nav li a {
     padding: 5px;
     color: rgb(255, 255, 255);
 }
-nav li a:hover{
+
+nav li a:hover {
     background-color: rgb(255, 224, 121);
     color: rgb(255, 102, 102);
-    transition:background-color 2s linear, color 2s ease-in-out;
+    transition: background-color 2s linear, color 2s ease-in-out;
+}
+
+#sitebody {
+    width: 600px;
+    margin: 0 auto;
+    font-size: 13px;
+}
+
+#sidebar_left {
+    background-color: #FFF5e3;
+    width: 120px;
+    height: 2000px;
+    float: left;
+}
+
+#sidebar_right {
+    background-color: #fff5e3;
+    width: 120px;
+    height: 2000px;
+    float: right;
+}
+
+section {
+    margin-left: 120px;
+    margin-right: 120px;
+    height:2000px;
+    background-color: #F2FFF2;
+}
+
+footer {
+    height: 200px;
+    background-color: #FFA3B6;
+    clear: both;
 }
