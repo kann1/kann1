@@ -44,8 +44,24 @@ nav li a:hover {
 section {
     margin-left: 120px;
     margin-right: 120px;
-    height:2000px;
+    height: 2000px;
     background-color: #F2FFF2;
+}
+
+#tenplace ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#tenplace li {
+    list-style-type: none;
+    margin:auto;
+}
+
+#tenplace img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
 }
 
 footer {
