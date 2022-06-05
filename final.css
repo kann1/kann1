@@ -609,7 +609,7 @@ section {
 
 .wrapper {
     margin: 0 auto;
-    width: 96%;
+    width: auto
     max-width: 1120px;
 }
 
@@ -720,3 +720,30 @@ footer li a:hover {
     color: rgb(255, 102, 102);
     transition: background-color 2s linear, color 2s ease-in-out;
 }
+
+#photolist ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#photolist li {
+    list-style-type: none;
+    margin: 70px;
+}
+
+#photolist img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+
+#photolist .emptyitem {
+    width: 200px;
+}
+section{
+    height: 1000px;
+}
+
+
+
+

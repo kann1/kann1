@@ -98,9 +98,9 @@ body {
 
 .logo {
     order: 1;
-    font-size: 2.3rem;
-    margin-bottom: 0.5rem;
+    margin: auto;
 }
+
 
 /* ............//// Showcase styling ////......... */
 
@@ -108,7 +108,7 @@ body {
     height: 50vh;
     background: linear-gradient(rgba(240, 240, 240, 0.144),
             rgba(255, 255, 255, 0.336)),
-        url("https://i.postimg.cc/wT3TQS3V/header-image2.jpg");
+        url("img/4752528892779719546.9d1df4bcb8bf4070d7408470666ccd7f.22052100.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

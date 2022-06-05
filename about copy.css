@@ -98,9 +98,9 @@ body {
 
 .logo {
     order: 1;
-    font-size: 2.3rem;
-    margin-bottom: 0.5rem;
+    margin: auto;
 }
+
 
 /* ............//// Showcase styling ////......... */
 
@@ -108,7 +108,7 @@ body {
     height: 50vh;
     background: linear-gradient(rgba(240, 240, 240, 0.144),
             rgba(255, 255, 255, 0.336)),
-        url("https://i.postimg.cc/wT3TQS3V/header-image2.jpg");
+        url("img/4752528892779719546.9d1df4bcb8bf4070d7408470666ccd7f.22052100.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -159,7 +159,6 @@ body {
 .about-img {
     flex: 1 1 400px;
     padding: 30px;
-    flex:auto
     transform: translateX(150%);
     animation: about-img-animation 1s ease-in-out forwards;
 }
@@ -474,7 +473,7 @@ body {
 
 footer {
     height: 100px;
-    background-color: #d1e39a;
+    background-color: #000000;
     text-align: center;
     padding: 20px;
 }
@@ -483,13 +482,14 @@ footer li {
     list-style-type: none;
     display: inline-block;
     padding: 5px;
+    color: rgb(255, 255, 255);
 }
 
 footer li a {
     display: block;
     text-decoration: none;
     padding: 0px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 footer li a:hover {
