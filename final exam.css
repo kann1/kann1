@@ -56,7 +56,7 @@
     height: 50vh;
     background: linear-gradient(rgba(240, 240, 240, 0.144),
             rgba(255, 255, 255, 0.336)),
-        url("img/4752528892779719546.9d1df4bcb8bf4070d7408470666ccd7f.22052100.jpg");
+        url("img/top.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -225,7 +225,7 @@ section {
 
 .box {
     margin-bottom: 20px;
-    background: #ffb3b3;
+    background: #ffe1bb;
     text-align: center;
     list-style-type: none;
     height: 50px;
@@ -233,22 +233,70 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
-}
-.box2 {
-    margin-bottom: 20px;
-    background: #ffb3b3;
-    text-align: center;
-    list-style-type: none;
-    height: 50px;
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    float: left;
+
 }
 
-li {
-    list-style-type: none;
+#about {
+    padding:0px 0;
+    background: #ffffff;
+}
+
+.about-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px 10px 0px;
+}
+
+#about h2 {
+    font-size: 2.3rem;
+}
+
+#about p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+#about .small {
+    font-size: 1.2rem;
+    color: #666;
+    font-weight: 600;
+}
+
+.about-img {
+    flex: 1 1 400px;
+    padding: 30px;
+    transform: translateX(150%);
+    animation: about-img-animation 1s ease-in-out forwards;
+}
+
+@keyframes about-img-animation {
+    100% {
+        transform: translate(0);
+    }
+}
+
+.about-text {
+    flex: 1 1 400px;
+    padding: 30px;
+    margin: auto;
+    transform: translate(-150%);
+    animation: about-text-animation 1s ease-in-out forwards;
+}
+
+@keyframes about-text-animation {
+    100% {
+        transform: translate(0);
+    }
+}
+
+.about-img img {
+    display: block;
+    height: 400px;
+    max-width: 100%;
+    margin: auto;
+    object-fit: cover;
+    object-position: right;
 }
 
 footer {
@@ -256,6 +304,7 @@ footer {
     background-color: #d1e39a;
     text-align: center;
     padding: 20px;
+    clear: both;
 }
 
 footer li {
