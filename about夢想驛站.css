@@ -108,7 +108,7 @@ body {
     height: 50vh;
     background: linear-gradient(rgba(240, 240, 240, 0.144),
             rgba(255, 255, 255, 0.336)),
-        url("img/陪伴孩子成長的地方，老師如同和煦的晨曦般照耀在孩子身上。.jpg");
+        url("img/記錄著夢想驛站結合園藝造景與表演舞台的圖像，背後蔥翠的綠意如孩子身受巨大溫暖的支持。.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -469,8 +469,6 @@ body {
         height: 50vmax;
     }
 }
-
-
 footer {
     height: 100px;
     background-color: #000000;
