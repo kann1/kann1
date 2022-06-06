@@ -223,23 +223,10 @@ section {
     background: #f1f1f1;
 }
 
-.box {
-    margin-bottom: 20px;
-    background: #ffe1bb;
-    text-align: center;
-    list-style-type: none;
-    height: 50px;
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    float: left;
-
-}
 
 #about {
     padding:0px 0;
-    background: #ffffff;
+    background: #ffe5b6;
 }
 
 .about-wrapper {
