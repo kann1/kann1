@@ -1,78 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>大同育幼院</title>
-    <link rel="stylesheet" href="final.css">
+
+  <meta charset="UTF-8">
+  
+<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" />
+<meta name="apple-mobile-web-app-title" content="CodePen">
+
+<link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
+
+<link rel="mask-icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111" />
+
+
+  <title>CodePen - Pure CSS3 slider</title>
+  
+  
+  
+  
+<style>
+/* Reset */
+
+</style>
+
 </head>
 
-<body>
-    <header>
-        <nav class="navbar">
-            <div class="navbar-container container">
-                <input type="checkbox" name="" id="">
-                <div class="hamburger-lines">
-                    <span class="line line1"></span>
-                    <span class="line line2"></span>
-                    <span class="line line3"></span>
-                </div>
-                <ul class="menu-items">
-                    <li><a href="final exam.html">首頁</a></li>
-                    <li><a href="about.html">認識家扶</a></li>
-                    <li><a href="about2.html">服務介紹</a></li>
-                    <li><a href="about3.html">活動報導</a></li>
-                    <li><a href="about4.html">捐款參與</a></li>
-                    <li><a href="https://www.ccf.org.tw/60/publish/MTE2OQ">出版推廣</a></li>
-                    <li><a href="https://www.ccf.org.tw/60/qa/MTIwOA">Q&A</a></li>
-                </ul>
-                <h1 class="logo">
-                    <img height="80px" src="img/logo_L.jpg">
-                </h1>
-            </div>
-        </nav>
-        <section class="showcase-area" id="showcase">
-            <div class="showcase-container">
-                <h1 class="main-title" id="home">大同育幼院</h1>
-                <p>家扶基金會</p>
-                <a href="about.html"></a>
-            </div>
-        </section>
-    </header>
-    <section class="other">
-        <div class="wrapper">
-            <h2 class="other__title">大同十景</h2>
-            <div id="photolist">
-              <ul>
-                  <li><img src="img/game01.jpg" alt="隨便照片" width="200px" height="300px"></li>
-                  <p>1</p>
-                  <li><img src="img/game02.jpg" alt="隨便照片" width="200px" height="300px"></li>
-                  <li><img src="img/game03.jpg" alt="隨便照片" width="200px" height="300px"></li>
-                  <li><img src="img/game04.jpg" alt="隨便照片" width="200px" height="300px"></li>
-                  <li><img src="img/game05.jpg" alt="隨便照片" width="200px" height="300px"></li>
-                  <li><img src="img/game06.jpg" alt="隨便照片" width="200px" height="300px"></li>
-                  <li><img src="img/game07.jpg" alt="隨便照片" width="200px" height="300px"></li>
-                  <li><img src="img/game08.jpg" alt="隨便照片" width="200px" height="300px"></li>
-                  <li><img src="img/game09.jpg" alt="隨便照片" width="200px" height="300px"></li>
-                  <li><img src="img/game10.jpg" alt="隨便照片" width="200px" height="300px"></li>
-                  <li class="emptyitem"></li>
-                  <li class="emptyitem"></li>
-                  <li class="emptyitem"></li>
-                  <li class="emptyitem"></li>
-                  <li class="emptyitem"></li>
-              </ul>
-          </div>
-        </div>
-    </section>
+<body translate="no" >
+  <!-- Fork me on GitHub ribbon -->
+<a href="https://github.com/Elitewares/CSS3-Slider" target="_blank"><img style="position: fixed; top: 0; right: 0; border: 0;z-index:99;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
 
-    <footer>
-        <li>電話:(02)2247-2455 dt@ccf.org.tw</li>
-        <li>地址:新北市中和區圓通路121巷2號</li>
-        <li><a href="https://www.facebook.com/tfcf60">Facebook首頁</a></li>
-        <li><a href="dt@ccf.org.tw">聯絡大同育幼院</a></li>
-    </footer>
+<!-- Header -->
+<header>
+  <nav>
+    <li> <a href="https://twitter.com/BenSassiAladin" target="_blank">Twitter</a></li>
+    <li> <a href="https://tn.linkedin.com/in/aladinbensassi" target="_blank">LinkedIn</a> </li>
+    <select onchange="if (this.value) window.location.href=this.value">
+      <option value="#"> Default </option>
+      <option value="#"> Left to Right </option>
+      <option value="#"> Top to Bottom </option>
+      <option value="#"> Bottom to Top </option>
+      <option value="#"> light </option>
+    </select>
+  </nav>
+</header>
+
+<!-- Slider -->
+<div id="slider">
+  <div class="slides">
+    <div class="slider">
+      <div class="legend"></div>
+      <div class="content">
+        <div class="content-txt">
+          <h1>Lorem ipsum dolor</h1>
+          <h2>Nam ultrices pellentesque facilisis. In semper tellus mollis nisl pulvinar vitae vulputate lorem consequat. Fusce odio tortor, pretium sit amet auctor ut, ultrices vel nibh.</h2>
+        </div>
+      </div>
+      <div class="image">
+        <img src="https://cdn.stocksnap.io/img-thumbs/960w/VVHE6VHMAW.jpg">
+      </div>
+    </div>
+    <div class="slider">
+      <div class="legend"></div>
+      <div class="content">
+        <div class="content-txt">
+          <h1>Lorem ipsum dolor</h1>
+          <h2>Nam ultrices pellentesque facilisis. In semper tellus mollis nisl pulvinar vitae vulputate lorem consequat. Fusce odio tortor, pretium sit amet auctor ut, ultrices vel nibh.</h2>
+        </div>
+      </div>
+      <div class="image">
+        <img src="https://cdn.stocksnap.io/img-thumbs/960w/AKWVXIXFA8.jpg">
+      </div>
+    </div>
+    <div class="slider">
+      <div class="legend"></div>
+      <div class="content">
+        <div class="content-txt">
+          <h1>Lorem ipsum dolor</h1>
+          <h2>Nam ultrices pellentesque facilisis. In semper tellus mollis nisl pulvinar vitae vulputate lorem consequat. Fusce odio tortor, pretium sit amet auctor ut, ultrices vel nibh.</h2>
+        </div>
+      </div>
+      <div class="image">
+        <img src="https://cdn.stocksnap.io/img-thumbs/960w/TPLJK7JPRR.jpg">
+      </div>
+    </div>
+    <div class="slider">
+      <div class="legend"></div>
+      <div class="content">
+        <div class="content-txt">
+          <h1>Lorem ipsum dolor</h1>
+          <h2>Nam ultrices pellentesque facilisis. In semper tellus mollis nisl pulvinar vitae vulputate lorem consequat. Fusce odio tortor, pretium sit amet auctor ut, ultrices vel nibh.</h2>
+        </div>
+      </div>
+      <div class="image">
+        <img src="https://cdn.stocksnap.io/img-thumbs/960w/XJ2BKV9ASS.jpg">
+      </div>
+    </div>
+  </div>
+  <div class="switch">
+    <ul>
+      <li>
+        <div class="on"></div>
+      </li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
+</div>
+
+
 </body>
 
 </html>
