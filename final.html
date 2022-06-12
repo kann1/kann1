@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en" >
 
@@ -11,103 +13,57 @@
 <link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
 
 <link rel="mask-icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111" />
+<link rel="stylesheet" href="final.css">
 
-
-  <title>CodePen - Pure CSS3 slider</title>
+  <title>CodePen - Pure CSS Slideshow Gallery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  
-  
-  
-<style>
-/* Reset */
-
-</style>
-
-</head>
+ </head>
 
 <body translate="no" >
-  <!-- Fork me on GitHub ribbon -->
-<a href="https://github.com/Elitewares/CSS3-Slider" target="_blank"><img style="position: fixed; top: 0; right: 0; border: 0;z-index:99;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+  <div class="CSSgal">
 
-<!-- Header -->
-<header>
-  <nav>
-    <li> <a href="https://twitter.com/BenSassiAladin" target="_blank">Twitter</a></li>
-    <li> <a href="https://tn.linkedin.com/in/aladinbensassi" target="_blank">LinkedIn</a> </li>
-    <select onchange="if (this.value) window.location.href=this.value">
-      <option value="#"> Default </option>
-      <option value="#"> Left to Right </option>
-      <option value="#"> Top to Bottom </option>
-      <option value="#"> Bottom to Top </option>
-      <option value="#"> light </option>
-    </select>
-  </nav>
-</header>
+  <!-- Don't wrap targets in parent -->
+  <s id="s1"></s> 
+  <s id="s2"></s>
+  <s id="s3"></s>
+  <s id="s4"></s>
 
-<!-- Slider -->
-<div id="slider">
-  <div class="slides">
-    <div class="slider">
-      <div class="legend"></div>
-      <div class="content">
-        <div class="content-txt">
-          <h1>Lorem ipsum dolor</h1>
-          <h2>Nam ultrices pellentesque facilisis. In semper tellus mollis nisl pulvinar vitae vulputate lorem consequat. Fusce odio tortor, pretium sit amet auctor ut, ultrices vel nibh.</h2>
-        </div>
-      </div>
-      <div class="image">
-        <img src="https://cdn.stocksnap.io/img-thumbs/960w/VVHE6VHMAW.jpg">
-      </div>
-    </div>
-    <div class="slider">
-      <div class="legend"></div>
-      <div class="content">
-        <div class="content-txt">
-          <h1>Lorem ipsum dolor</h1>
-          <h2>Nam ultrices pellentesque facilisis. In semper tellus mollis nisl pulvinar vitae vulputate lorem consequat. Fusce odio tortor, pretium sit amet auctor ut, ultrices vel nibh.</h2>
-        </div>
-      </div>
-      <div class="image">
-        <img src="https://cdn.stocksnap.io/img-thumbs/960w/AKWVXIXFA8.jpg">
-      </div>
-    </div>
-    <div class="slider">
-      <div class="legend"></div>
-      <div class="content">
-        <div class="content-txt">
-          <h1>Lorem ipsum dolor</h1>
-          <h2>Nam ultrices pellentesque facilisis. In semper tellus mollis nisl pulvinar vitae vulputate lorem consequat. Fusce odio tortor, pretium sit amet auctor ut, ultrices vel nibh.</h2>
-        </div>
-      </div>
-      <div class="image">
-        <img src="https://cdn.stocksnap.io/img-thumbs/960w/TPLJK7JPRR.jpg">
-      </div>
-    </div>
-    <div class="slider">
-      <div class="legend"></div>
-      <div class="content">
-        <div class="content-txt">
-          <h1>Lorem ipsum dolor</h1>
-          <h2>Nam ultrices pellentesque facilisis. In semper tellus mollis nisl pulvinar vitae vulputate lorem consequat. Fusce odio tortor, pretium sit amet auctor ut, ultrices vel nibh.</h2>
-        </div>
-      </div>
-      <div class="image">
-        <img src="https://cdn.stocksnap.io/img-thumbs/960w/XJ2BKV9ASS.jpg">
-      </div>
-    </div>
+  <div class="slider">
+    <div style="background:#5b8;">
+			<h2>PURE <b>CSS</b> SLIDESHOW</h2>
+			<p>Responsive Slideshow Gallery created using CSS only<br>by Roko</p>
+		</div>
+    <div style="background:#85b;">
+			<h2>Slide 2</h2>
+		</div>
+    <div style="background:#e95;">
+			<h2>Slide 3</h2>
+		</div>
+    <div style="background:#e59;">
+			<h2>Slide 4</h2>
+		</div>
   </div>
-  <div class="switch">
-    <ul>
-      <li>
-        <div class="on"></div>
-      </li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
+  
+  <div class="prevNext">
+    <div><a href="#s4"></a><a href="#s2"></a></div>
+    <div><a href="#s1"></a><a href="#s3"></a></div>
+    <div><a href="#s2"></a><a href="#s4"></a></div>
+    <div><a href="#s3"></a><a href="#s1"></a></div>
   </div>
+
+  <div class="bullets">
+    <a href="#s1">1</a>
+    <a href="#s2">2</a>
+    <a href="#s3">3</a>
+    <a href="#s4">4</a>
+  </div>
+
 </div>
-
+  
+  
+  
+  
 
 </body>
 
