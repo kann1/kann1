@@ -1,0 +1,29 @@
+header{
+    height: 200px;
+    background-color: antiquewhite;
+}
+
+aside{
+    height: 200px;
+    background-color: bisque;
+    width: 40%;
+    float: left;
+}
+
+section{
+    height: 200px;
+    background-color: aqua;
+    width: 30%;
+    float: left;
+}
+
+footer{
+    height: 100px;
+    background-color: aquamarine;
+    clear: both;
+}
+.boss{
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
