@@ -132,7 +132,7 @@ body {
 
 #about {
     padding:0px 0;
-    background: #f5f5f7;
+    background: #fff6ee;
 }
 
 .about-wrapper {
@@ -147,7 +147,7 @@ body {
 
 #about p {
     font-size: 1.2rem;
-    color: #555;
+    color: rgb(0, 0, 0);
 }
 
 #about .small {
@@ -496,3 +496,4 @@ footer li a:hover {
     color: rgb(255, 102, 102);
     transition: background-color 2s linear, color 2s ease-in-out;
 }
+
